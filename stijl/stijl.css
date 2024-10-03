@@ -4,9 +4,28 @@ h1{
 .links {
     -ms-text-combine-horizontal: right;
 }
-img{
+.img1{
+    margin: 10px;
     width: 400px ;
+    float: left;
 }
 h2{
-    text-align: right;
+    
+    text-align: left;
+}
+div {
+    border: 3px solid white;
+    padding: 5px;
+    padding-left: 1px;
+    
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.img2{
+    float: right;
+    width: 600px;
+    height : 400px;
 }
