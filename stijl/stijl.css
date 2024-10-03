@@ -1,0 +1,12 @@
+h1{
+    text-align: left;
+}
+.links {
+    -ms-text-combine-horizontal: right;
+}
+img{
+    width: 400px ;
+}
+h2{
+    text-align: right;
+}
